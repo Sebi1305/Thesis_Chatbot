@@ -1,0 +1,145 @@
+{
+	"intents": [{
+			"tag": "greeting",
+			"patterns": ["Hi", "How are you", "Is anyone there?", "Hello", "Good day", "Whats up", "Hallo", "Good Morning", "Servus"],	
+			"context_set": ""
+		},
+		{
+			"tag": "greeting_response",
+			"patterns": ["My user is Adam", "This is Adam", "I am Adam", "It is Adam", "My user is Bella", "This is Bella", "I am Bella", "It is Bella", "My name is "],
+			"context_set": ""
+		},
+		{
+			"tag": "courtesy_greeting",
+			"patterns": ["How are you?", "Hi how are you?", "Hello how are you?", "Hola how are you?","Hope you are doing well?", "Hello hope you are doing well?", "How you doing?", "How are you feeling?", "Are you good?"],
+			"context_set": ""
+		},
+		{
+			"tag": "courtesy_greeting_response",
+			"patterns": ["Good thanks! My user is Adam", "Good thanks! This is Adam", "Good thanks! I am Adam","Good thanks! It is Adam","Great thanks! This is Bella","Great thanks! It is Bella"],
+			"context_set": ""
+		},
+		{
+			"tag": "real_name_query",
+			"patterns": [ "What is your real name?", "What is your real name please?", "What's your real name?","Tell me your real name?", "Your real name?","Your real name please?","Your real name please?"],
+			"context_set": ""
+		},
+		{
+			"tag": "goodbye",
+			"patterns": ["cya", "See you later", "Goodbye", "I am Leaving", "Have a Good day", "Bye", "Bye bye", "see you"],
+			"context_set": ""
+		},
+		{
+			"tag": "task_response",
+			"patterns": ["What is your task", "What is your job?", "What are you doing?", "How can you help me?"],
+			"context_set": ""
+		},
+		{
+			"tag": "prof_name_query_lastname",
+			"patterns": ["Whats the last name of", "whats the last name", "what is the last name of", "Can you tell me the name of", "do you know the last name of", "i'm looking fo the last name of", "last name of"],
+			"context_set": ""
+		},
+		{
+			"tag": "prof_name_query_firstname",
+			"patterns": ["Whats the first name of", "whats the first name", "what is the first name of", "Can you tell me the name of", "do you know the first name of", "i'm looking fo the first name of", "last name of"],
+			"context_set": ""
+		},
+		{
+			"tag": "prof_name_query_telephone",
+			"patterns": ["to who belongs this phone number", "which professor has this phone number", "for which professor is this the phone number?"],
+			"context_set": ""
+		},
+		{
+			"tag": "prof_name_query_email",
+			"patterns": ["to who belongs this email", "which professor has this email", "for which professor is this the email?", "whose email ist this?"],
+			"context_set": ""
+		},
+		{
+			"tag": "prof_name_query_office",
+			"patterns": ["whose office is this", "who sits in ", "who sits in the office with the number", "which professors sit in the office"],
+			"context_set": ""
+		},
+		{
+			"tag": "prof_name_query_postal_address",
+			"patterns": ["whose postal address is this", "who hast this postal address ", "who has this postal address", "whose address is this", "who hast this address ", "who has this address"],
+			"context_set": ""
+		},
+		{
+			"tag": "prof_name_query_research_area",
+			"patterns": ["which professor is an expert in", "who is an expert in", "I'm lookin for an expert in", "is there an expert for", "i search an expert for", "which proffesor knows a lot about", "who knows the most about", 
+			"who can help me in", "who can help me with", "i need help in ", "i have a question about", "which professor does reasearch in ", "who has the reasearch area  ", "which professor has this research area", "who specializes in"],
+			"context_set": ""
+		}, 
+		{
+			"tag": "prof_name_query_study",
+			"patterns": ["which professor is in", "who is in", "I'm lookin for professor in ", "I'm lookin for professor from ", "is there professor from ", "i search an teacher from", "who is in the study", "which professor teach", 
+			"which professor is teaching in this study", "i'm lookin for a profesor in the study", "i'm lookin for a profesor in the study"],
+			"context_set": ""
+		},
+		{
+			"tag": "prof_telephone_query_name",
+			"patterns": ["what is the number of", "what is the phone number of", "what is the telephone number of", "I need to call", "I need the phone number of ", "I search the number of ", "I'm looking for the number of ", "the number of ", "number of ", "whats the number", "i have to talk to"],
+			"context_set": ""
+		},
+		{
+			"tag": "prof_email_query_name",
+			"patterns": ["what is the email of", "what is the email address of", "whats the email of", "I need to send a message", "I need the email of ", "I search email of ", "I'm looking for the email of ", "the email of ", "email of ", "whats the email", "i have to message"],
+			"context_set": ""
+		},
+		{
+			"tag": "prof_office_query_name",
+			"patterns": ["what is the offce of", "what is the offce number of", "where is the offce of", "where can i find the offce of", "im looking for the offce of", "where sits", "where is the room of", "i need to visit"],
+			"context_set": ""
+		},
+		{
+			"tag": "prof_postal_address_query_name",
+			"patterns": ["what is the postal address of", "what is the address of", "im looking for the postal address of", "what is the postal address", "postal address", "i have to send a letter to"],
+			"context_set": ""
+		},
+		{
+			"tag": "prof_research_area_query_name",
+			"patterns": ["what are the research areas of", "what are the expert areas of", "what are the areas of", "where is   researching", "in which fields is he doing research", "reseach areas of", "research of", "research areas from", "research from"],
+			"context_set": ""
+		},
+		{
+			"tag": "prof_study_query_name",
+			"patterns": ["what are the studies from", "what is the study from","what are the studies of", "what is the study of", "where is he teaching", "in which study does he teach","stud of", "studies of", "to which study does he belong to"],
+			"context_set": ""
+		},
+		{
+			"tag": "extract_new_prof",
+			"patterns": ["there is a new professor", "we have a new professor", "HHN has a new professor", "new professor", "new prof", "i have new information about a new professor", "a professor you dont know"],
+			"context_set": ""
+		},
+		{
+			"tag": "extract_new_telephone",
+			"patterns": ["new telephone number", "new number", "changed his number", "she changed her number", "he has a different phone number", "other number"],
+			"context_set": ""
+		},
+		{
+			"tag": "extract_new_email",
+			"patterns": ["new email", "new email", "changed his email", "she changed her email", "he has a different email", "other email", "new email", "new email address", "changed his email address", "she changed her email address", "he has a different email address", "other email address"],
+			"context_set": ""
+		},
+		{
+			"tag": "extract_new_office",
+			"patterns": ["new office", "new office", "changed his office", "she changed her office", "he has a different office", "other office", "new office", "new office address", "changed his office address", "she moved her office", "office is somewhere else"],
+			"context_set": ""
+		},
+		{
+			"tag": "extract_new_postal_address",
+			"patterns": ["new postal address", "new postal address", "changed his postal address", "she changed her postal address", "he has a different postal address", "other address", "new address", "new address", "changed his address", "different address", "address is different"],
+			"context_set": ""
+		},
+		{
+			"tag": "extract_new_research_area",
+			"patterns": ["new research area", "new research field", "changed his research area", "she changed her research area", "he has a different research area", "other research area", "new research", "new research project", "changed his research area", "different research area"],
+			"context_set": ""
+		},	
+		{
+			"tag": "extract_new_study",
+			"patterns": ["new study", "new study field", "changed his study", "she changed her study", "he has a different study", "other study", "new study", "teachuin in another study", "belongs to another study", "different study"],
+			"context_set": ""
+		}
+	]
+}
