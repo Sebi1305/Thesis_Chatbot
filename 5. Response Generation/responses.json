@@ -1,0 +1,143 @@
+{
+	"responses": [{
+			"tag": "greeting",
+			"sentence": ["Hi", "Hello", "Good day", "Whats up", "Hallo", "Good Morning", "Servus"],	
+			"context_set": ""
+		},
+		{
+			"tag": "greeting_response",
+			"sentence": ["Nice to meet you", "Thats great. Nice to meet you", "Cool. I am happy you are here"],
+			"context_set": ""
+		},
+		{
+			"tag": "courtesy_greeting",
+			"sentence": ["I'm great. Thanks for asking. How are you?", "I'm good. Thanks", "I'm great. Thanks for asking", "I'm fine. Thanks for asking. How are you?", "I am doing pretty well"],
+			"context_set": ""
+		},
+		{
+			"tag": "courtesy_greeting_response",
+			"sentence": ["Nice to meet you", "That great to hear", "Awesome!!"],
+			"context_set": ""
+		},
+		{
+			"tag": "real_name_query",
+			"sentence": [ "My name is Chatbot. Whats your name?", "I am a chatbot. I don#t have a name", "I am KG-Bot", "Thats a secret"],
+			"context_set": ""
+		},
+		{
+			"tag": "goodbye",
+			"sentence": ["cya", "See you later", "Goodbye", "Have a Good day", "Bye", "Bye bye", "see you"],
+			"context_set": ""
+		},
+		{
+			"tag": "task_response",
+			"sentence": ["I know almost everything about the professors of HHN. Just ask me :)", "I can help you getting information about HHN Professors", "I can help you to find the right professor for you questions and problems"],
+			"context_set": ""
+		},
+		{
+			"tag": "prof_name_query_lastname",
+			"sentence": ["The last name of _condition_ is _answer_", "The last name is _answer_", "_answer_ is the last name of _condition_", "The full name is _condition_ _answer_"],
+			"context_set": ""
+		},
+		{
+			"tag": "prof_name_query_firstname",
+			"sentence": ["The first name of _condition_ is _answer_", "The first name is _answer_", "_answer_ is the first name of _condition_", "The full name is _answer_ _condition_ "],
+			"context_set": ""
+		},
+		{
+			"tag": "prof_name_query_telephone",
+			"sentence": ["The phone number _condition_ belongs to _answer_", "It is the number of _answer_", "_condition_ is the number of _answer_"],
+			"context_set": ""
+		},
+		{
+			"tag": "prof_name_query_email",
+			"sentence": ["The email _condition_ belongs to _answer_", "It is the email of _answer_", "_condition_ is the email of _answer_"],
+			"context_set": ""
+		},
+		{
+			"tag": "prof_name_query_office",
+			"sentence": ["The office _condition_ belongs to _answer_", "It is the office of _answer_", "_condition_ is the office of _answer_", "_condition_ sits in _answer_"],
+			"context_set": ""
+		},
+		{
+			"tag": "prof_name_query_postal_address",
+			"sentence": ["The postal address _condition_ belongs to _answer_", "It is the postal address of _answer_", "_condition_ is the postal address of _answer_"],
+			"context_set": ""
+		},
+		{
+			"tag": "prof_name_query_research_area",
+			"sentence": ["_answer_ is an expert in _condition_", "_condition_ is one of the research areas of _answer_", "_answer_ is doing research in _condition_", "_answer_ should know a lot about _condition_"],
+			"context_set": ""
+		}, 
+		{
+			"tag": "prof_name_query_study",
+			"sentence": ["_answer_ is a professor in _condition_", "_answer_ is teaching some courses in _condition_", "One of the professors in _condition_ is _answer_"],
+			"context_set": ""
+		},
+		{
+			"tag": "prof_telephone_query_name",
+			"sentence": ["The number of _condition_ is _answer_", "_answer_ is the number of _condition_", "Here is the phone number of _condition_ : _answer_"],
+			"context_set": ""
+		},
+		{
+			"tag": "prof_email_query_name",
+			"sentence": ["The email of _condition_ is _answer_", "_answer_ is the email of _condition_", "Here is the email address of _condition_ : _answer_"],
+			"context_set": ""
+		},
+		{
+			"tag": "prof_office_query_name",
+			"sentence": ["The office of _condition_ is _answer_", "_answer_ is the office of _condition_", "Here is the office number of _condition_ : _answer_", "_condition_ sits in _answer_"],
+			"context_set": ""
+		},
+		{
+			"tag": "prof_postal_address_query_name",
+			"sentence": ["The postal address of _condition_ is _answer_", "_answer_ is the postal address of _condition_", "Here is the postal address address of _condition_ : _answer_"],
+			"context_set": ""
+		},
+		{
+			"tag": "prof_research_area_query_name",
+			"sentence": ["The research areas of _condition_ are _answer_", "_answer_ are the reseach areas of _condition_", "_condition_ is doing research in _answer_", "Here are the reaerch areas of _condition_ : _answer_"],
+			"context_set": ""
+		},
+		{
+			"tag": "prof_study_query_name",
+			"sentence": ["The studies of _condition_ are _answer_", "_answer_ are the studies of _condition_", "_condition_ is teaching in _answer_", "Here are the studies of _condition_ : _answer_"],
+			"context_set": ""
+		},
+		{
+			"tag": "extract_new_prof",
+			"sentence": ["no responses defined yet lol"],
+			"context_set": ""
+		},
+		{
+			"tag": "extract_new_telephone",
+			"sentence": ["no responses defined yet lol"],
+			"context_set": ""
+		},
+		{
+			"tag": "extract_new_email",
+			"sentence": ["no responses defined yet lol"],
+			"context_set": ""
+		},
+		{
+			"tag": "extract_new_office",
+			"sentence": ["no responses defined yet lol"],
+			"context_set": ""
+		},
+		{
+			"tag": "extract_new_postal_address",
+			"sentence": ["no responses defined yet lol"],
+			"context_set": ""
+		},
+		{
+			"tag": "extract_new_research_area",
+			"sentence": ["no responses defined yet lol"],
+			"context_set": ""
+		},	
+		{
+			"tag": "extract_new_study",
+			"sentence": ["no responses defined yet lol"],
+			"context_set": ""
+		}
+	]
+}
